@@ -57,7 +57,7 @@ h1, h2, h3, h4 {
 #resume .item .resumeContent .info
 {
 	float:left;
-	width:340px;
+	width:35%;
 	text-align:right;
 	display:back;
 }
@@ -65,8 +65,14 @@ h1, h2, h3, h4 {
 #resume .item .resumeContent .explanation
 {
 	float:right;
-	width:540px;
+	width:55%;
 	text-align:left;
 	display:back;
 	margin-bottom:20px;
+}
+
+#projects img
+{
+    width: 100%;
+    height: auto;
 }
