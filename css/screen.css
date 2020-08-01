@@ -1,0 +1,72 @@
+a:link
+{
+    color:#57ad68;
+    text-decoration:none;
+}
+
+a:visited
+{
+    color:#57ad68;
+    text-decoration:none;
+}
+
+a:hover
+{
+    color:#57ad68;
+    text-decoration:underline;
+}
+
+@font-face {
+    font-family: EamesCenturyModern;
+    src: url(Eames%20Century%20Modern-Bold.otf);
+    /*font-family: "Myriad Pro",Helvetica,Arial,sans-serif;*/
+}
+
+@font-face {
+    font-family: Trebuchet;
+    src: url(trebuc.ttf);
+}
+
+body {
+    /*background-color: #859197;
+    font-family: Trebuchet;*/
+    font-family: "Myriad Pro",Helvetica,Arial,sans-serif;
+}
+
+h1, h2, h3, h4 {
+    font-family: EamesCenturyModern;
+}
+
+#mainmenulist .nav-item:not(:last-child)
+{
+   border-right: 1px solid black;
+   padding: 0px 4px;
+}
+#mainmenulist .nav-item:last-child
+{
+   padding-right: 0px;
+   padding-left: 4px;
+}
+
+#resume .item
+{
+	width:100%;
+	text-align: left;
+}
+
+#resume .item .resumeContent .info
+{
+	float:left;
+	width:340px;
+	text-align:right;
+	display:back;
+}
+
+#resume .item .resumeContent .explanation
+{
+	float:right;
+	width:540px;
+	text-align:left;
+	display:back;
+	margin-bottom:20px;
+}
